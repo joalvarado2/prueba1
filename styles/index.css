@@ -3,11 +3,12 @@
 }
 html{
     font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    color:#58506B;
 }
 body{
     max-width: 85%;
     margin: auto;
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 h2{
     font-size: 2.5rem;
@@ -16,6 +17,8 @@ h2{
 h3{
     font-size: 1.5rem;
 }
+/* HEADER */
+
 header{
     align-items: center;
 }
@@ -39,6 +42,7 @@ img{
     padding-left: 2rem;
 }
 
+/* INICIO */
 .inicio .img{
     width: 50%;
 }
@@ -47,6 +51,7 @@ img{
     border-radius: 10px;
     color: white;
     font-size: 2rem;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,1)
 }
 .color span{
     font-size: 3rem;
@@ -68,7 +73,8 @@ img{
     font-size: 2.5rem;
 }
 .center{
-    margin:0 1rem ;
+    margin:0 1rem;
+    text-align: center;
 }
 .isla{
     color:  #817699;
@@ -95,8 +101,10 @@ img{
 }
 .robot{
     width: 50%;
-    /* margin: auto; */
     color: #58506B;
+}
+.text{
+    text-align: center;
 }
 .text h3{
     color: black;
@@ -114,16 +122,16 @@ img{
     height: 20rem;
     background-size: cover;
     position: relative;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,1)
 }
 .ahorro{
-position: absolute;
-content:'';
-bottom: 0;
-left: 0;
-right: 0;
-text-align: center;
-background-color: rgba(0, 0, 0, .7);
-color: white;
+    position: absolute;
+    content:'';
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
 }
 .ahorro p{
     font-size: 1.2rem;
@@ -131,4 +139,45 @@ color: white;
 .ahorro p span{
     font-size: 1.5rem;
     font-weight: bold;
+}
+.botones span{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #A99DC6;
+    display: inline-block;
+    margin:3rem 0 0 0;
+}
+.tamanio{
+    width: 50%;
+    margin-top: 3rem;
+}
+.tamanio img{
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    box-shadow: 0px 1px 6px 0px rgba(0,0,0,1)
+}
+.h2{
+    font-size: 2rem;
+}
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.navegation{
+    margin: 3rem 0;
+}
+.navegation a{
+    text-align: center;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:#A99DC6;
+}
+.blue{
+    color: #54D1ED;
+}
+.navegation i{
+    font-size: 3.2rem;   
 }
